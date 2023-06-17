@@ -1,0 +1,13 @@
+cat mat rat sat pat cat rat
+cat mat rat sat pat cat rat
+
+
+
+SELECT * FROM november.t2;
+SELECT * FROM november.t1;
+insert into t2 value(1,"Kakkanad","xxx@gmail.com");
+insert into t2 value(2,"palarivattom","yyy@gmail.com");
+select t1.id,t1.Name,t1.Age,t2.Address,t2.Email from t1 join t2 on t1.id=t2.Id;
+select t1.id,t1.Name,t1.Age,t2.Address,t2.Email from t1 inner join t2 on t1.id=t2.Id;
+select t1.id,t1.Name,t1.Age,t2.Address,t2.Email from t1 left join t2 on t1.id=t2.Id;
+select t1.id,t1.Name,t1.Age,t2.Address,t2.Email from t1 right join t2 on t2.id=t1.Id;
