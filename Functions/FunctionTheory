@@ -1,0 +1,84 @@
+Python Function:
+***************
+organized block of reusable code that called whenever required
+
+divide large program into basic building blocks
+
+Re-usability of codes and modularity in program
+
+The function contains the set of programming statements enclosed
+by {}
+
+keyword - def
+
+
+
+Types of functions:
+******************
+
+1. user-defined function
+     - created by user to perform specific task
+2. Built-in-function
+     - predefined function in Python like max(),count() etc
+3. Anonymous function
+
+
+Advantages:
+**********
+
+avoid rewriting same logic/code again and again in a program
+call functions multiply times anywhere in program
+re-usablity of code
+track large Python program easily when it is divided into
+multiple functions.
+
+Syntax:
+1. def my_function(parameters):
+2. function_block
+3. return expression
+
+● The def keyword, along with the function name is used to define the
+function.
+● The identifier rule must follow the function name.
+● A function accepts the parameter (argument), and they can be optional.
+● The function block is started with the colon (:), and block statements
+must be at the same indentation.
+● The return statement is used to return the value. A function can have
+only one return
+
+Function calling:
+****************
+A function must be defined before the function call; otherwise, the Python
+interpreter gives an error. To call the function, use the function name followed
+by the parentheses.
+
+    The return statement is used at the end of the function and returns the result of
+the function. It terminates the function execution and transfers the result where
+the function is called. The return statement cannot be used outside of the
+function.
+    If the return statement has no expression or does not exist itself
+in the function then it returns the None object.
+
+Difference betwwn arguments and
+parametr. varaibales listed in paranthesis in function definitio
+argumnets:
+Arguments in function:
+*********************
+
+Information which can be passed into the function.
+
+The arguments are specified in the parentheses.
+
+Pass any number of arguments, separated them with a comma.
+
+Call by reference in Python:
+***************************
+
+In Python, call by reference means passing the actual value as an argument in
+the function. All the functions are called by reference, i.e., all the changes made
+to the reference inside the function revert back to the original value referred by
+the reference.
+
+
+
+"""

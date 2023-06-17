@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *{
+         margin:0;
+         padding:0
+        }
+		body{
+  			height: 100vh;
+  			width: 100%;
+             margin-top:200px;
+ 			/* background: linear-gradient(360deg, #56d8e4 10%, #9f01ea 90%);*/
+ 			background: linear-gradient(to bottom, #9933FF 10%, #33CCCC 90%);
+
+		}
+		#registrationForm{
+            width:75%;
+		    margin:auto;
+		    color:#ffffff;
+		    text-align:center;
+  			padding: 10px 0px 10px 0px;
+  			border-radius:15px 16px 0px 0px;
+  			background: #00004d;
+		}
+		form{
+		    width:75%;
+		    height:95%;
+		    font-size:25px;
+		    margin:auto;
+		    text-align:center;
+		    background:#001a66;
+		    /*background:#0d0d9e;*/
+            border-radius:0px 0px 15px 15px;
+          }
+
+		.input_fields{
+		    /*background:#0d0d9e;*/
+		     position: relative;
+		    width:80%;
+		    margin-top:10px;
+		    padding:10px 10px;
+		    border-radius:5px;
+		    box-sizing: border-box;
+		}
+		.input_fields:first-child{
+		    margin-top:30px;
+		}
+		.container {
+            display: block;
+            position: relative;
+            padding-left: 10%;
+            margin-bottom: 0px;
+            margin-left:0px;
+            cursor: pointer;
+            font-size: 18px;
+            text-align:left;
+
+        }
+
+
+		button{
+		    background: linear-gradient(to bottom, #4d9900 50%, #336600 60%);
+		    align:right;
+		    border-radius:5px;
+		    margin-left: 60%;
+		    margin-bottom: 10%;
+		    padding:10px 10px 10px 10px;
+		    width: 20%;
+		    color:white;
+		}
+
+
+
+
+	</style>
+</head>
+
+<body >
+     <div id="registrationForm">
+         <h3>Registration Form</h3>
+     </div>
+     <div class="main">
+     <form method="POST">
+
+
+
+
+                <input type="text" class="input_fields" placeholder="First name" padding="10px" margin="10px"/><br><br>
+                <input type="text" class="input_fields" placeholder="Last name"/><br><br>
+                <input type="text" class="input_fields" placeholder="Email"/><br><br>
+                <input type="text" class="input_fields" placeholder="Password"/><br><br><br>
+             <label class="container">
+                    <input type="checkbox" name="lorem" id="c1" />
+                     <span class="checkmark">Lorem, ipsum dolor sit amet consectetur adipiscing elit. Amet<br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;architecto suscipit necessitatibus esse molestias</span>
+              </label>
+         <br>
+                <label class="container">
+                    <input type="checkbox" name="lorem" id="c2" />
+                     <span class="checkmark">Lorem, ipsum dolor sit amet, consectetur adipiscing elit.Amet<br>&nbsp;&nbsp;&nbsp;
+                         architecto suscipit necessitatibus esse molestias</span>
+                </label>
+    <br>
+                 <button>Register</button>
+     </form>
+         </div>
+
+</body>
+</html>
